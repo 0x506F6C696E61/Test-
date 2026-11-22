@@ -1,5 +1,27 @@
-Name       |Row #1   |
------------+---------+
-table_name |authors  |
-column_name|author_id|
-data_type  |integer  |
+table_name         |column_name     |data_type        |
+-------------------+----------------+-----------------+
+authors            |author_id       |integer          |
+authors            |first_name      |character varying|
+authors            |last_name       |character varying|
+authors            |author_country  |character varying|
+book_authors       |book_id         |integer          |
+book_authors       |author_id       |integer          |
+book_genres        |book_id         |integer          |
+book_genres        |genre_id        |integer          |
+books              |book_id         |integer          |
+books              |title           |character varying|
+books              |liked           |character varying|
+edition_translators|edition_id      |integer          |
+edition_translators|translator_id   |integer          |
+editions           |edition_id      |integer          |
+editions           |book_id         |integer          |
+editions           |publisher_id    |integer          |
+editions           |publication_year|integer          |
+editions           |language        |character varying|
+genres             |genre_id        |integer          |
+genres             |name            |character varying|
+publishers         |publisher_id    |integer          |
+publishers         |name            |character varying|
+translators        |translator_id   |integer          |
+translators        |first_name      |character varying|
+translators        |last_name       |character varying|
